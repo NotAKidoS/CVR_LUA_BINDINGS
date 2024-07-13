@@ -1,10 +1,40 @@
-# CVRLuaModule
+### Scope
+| Name                | Value |
+|---------------------|-------|
+| NONE                | 0     |
+| SELF                | 1     |
+| EXTERNAL_CONTENT    | 2     |
+| INTERNAL            | 4     |
+| NOT_AVAILABLE       | 8     |
+| ANY_EXCEPT_INTERNAL | 11    |
+| ANY                 | 15    |
 
-## Constructors:
+### Environment
+| Name   | Value |
+|--------|-------|
+| NONE   | 0     |
+| CLIENT | 1     |
+| SERVER | 2     |
+| ANY    | 3     |
 
-## Enums:
+### Object
+| Name             | Value |
+|------------------|-------|
+| NONE             | 0     |
+| AVATAR           | 1     |
+| PROP             | 2     |
+| WORLD            | 4     |
+| EVENT_WHITELIST  | 8     |
+| ALL_BUT_EVENTS   | 7     |
+| ANY              | 15    |
 
-## Wrappers:
+### Owner
+| Name  | Value |
+|-------|-------|
+| NONE  | 0     |
+| LOCAL | 1     |
+| OTHER | 2     |
+| ANY   | 3     |
 
 # CVR_CCKLuaModule
 
